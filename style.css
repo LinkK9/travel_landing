@@ -1,0 +1,43 @@
+#hero{
+    background-image: url("img/Imagehero.png");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    height: 962px;
+    background-blend-mode: screen multiply;
+}
+
+header{
+    color: #ffffff;
+    /* z-index: 0; */
+}
+
+nav{
+    padding-top: 56px;
+}
+
+.blur{
+    position: absolute;
+    width: 1440px;
+    height: 962px;
+    top: 0;
+    left: calc((100% - 1440px) / 2);
+    background-color: rgba(53, 66, 103, 0.3);
+    z-index: 0;
+}
+
+.descrisp{
+    position: relative;
+    z-index: 1;
+    margin-top: 180px;
+}
+
+.search-area .search-input{
+    margin-right: 60px;
+}
+
+.benefits{
+    position: relative;
+    top: -220px;
+    background-color: #ffffff;
+}
