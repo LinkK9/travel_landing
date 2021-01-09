@@ -120,6 +120,11 @@ h5{
   height: 100%;
 }
 
+.frame:hover > a .overlay{
+    display: none;
+}
+
+
 h1.city-name {
   position: absolute;
   bottom: 30px;
