@@ -181,6 +181,7 @@ h1.city-name {
 .place p {
   margin-top: 45px;
   margin-bottom: 30px;
+  padding-left: 0;
 }
 .grid-places {
   margin-top: 54px;
